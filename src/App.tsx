@@ -1,9 +1,9 @@
 import type { Component } from 'solid-js';
-import Demo from './create-signal';
+// 可以import src下不同组件去查看效果
+import Demo from './create-effect/with-cleanup';
 
 const App: Component = () => {
   return (
-    // <div>Hello SolidJS!</div>
     <Demo />
   );
 };
