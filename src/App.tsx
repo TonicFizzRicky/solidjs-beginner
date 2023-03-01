@@ -1,8 +1,10 @@
 import type { Component } from 'solid-js';
+import Demo from './create-signal';
 
 const App: Component = () => {
   return (
-    <div>Hello SolidJS!</div>
+    // <div>Hello SolidJS!</div>
+    <Demo />
   );
 };
 
